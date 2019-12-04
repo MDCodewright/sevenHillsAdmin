@@ -16,6 +16,14 @@ class SystemCalendarController extends Controller
             'suffix'     => '',
             'route'      => 'admin.documents-expiry-dates.edit',
         ],
+        [
+            'model'      => '\\App\\Meeting',
+            'date_field' => 'date',
+            'field'      => 'title',
+            'prefix'     => '',
+            'suffix'     => '',
+            'route'      => 'admin.meetings.edit',
+        ],
     ];
 
     public function index()
