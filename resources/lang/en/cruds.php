@@ -158,8 +158,8 @@ return [
         ],
     ],
     'documentsExpiryDate' => [
-        'title'          => 'Documents Expiry Date',
-        'title_singular' => 'Documents Expiry Date',
+        'title'          => 'Documents Expiry',
+        'title_singular' => 'Documents Expiry',
         'fields'         => [
             'id'                 => 'ID',
             'id_helper'          => '',
